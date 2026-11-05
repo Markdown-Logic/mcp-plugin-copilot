@@ -1,24 +1,24 @@
 {
   "name": "markdown-logic",
   "owner": {
-    "name": "Lemuridae Labs",
+    "name": "Markdown Logic",
     "email": "support@markdownlogic.com"
   },
   "metadata": {
-    "description": "Markdown Logic MCP connections and workflow Skills for GitHub Copilot",
-    "version": "0.3.1"
+    "description": "Markdown Logic document workflows for GitHub Copilot",
+    "version": "0.3.2"
   },
   "plugins": [
     {
       "name": "markdown-logic-public",
-      "description": "Convert complete Markdown you supply to PDF, DOCX, HTML or EPUB without an account. The anonymous MCP service cannot read private projects or fetch remote URLs. It returns embedded file bytes; saving or attaching them depends on your client. Size and capacity limits apply. It does not create a permanent download link.",
-      "version": "0.3.1",
+      "description": "Convert your Markdown into PDF, DOCX, HTML or EPUB\u2014no Markdown Logic account required.",
+      "version": "0.3.2",
       "source": "./copilot-public"
     },
     {
       "name": "markdown-logic",
-      "description": "Find, read, create, revise and render team documents through authorized Markdown Logic MCP tools. Browser OAuth, account permissions, scopes and plan limits apply. Skills provide guidance and add no permissions. Confirm the intended project and audience before writes or sharing. File saving and interactive UI depend on your client.",
-      "version": "0.3.1",
+      "description": "Manage, convert and display Markdown with your AI assistant. Share and collaborate on project documents, then export to PDF, DOCX and more. Explore app.markdownlogic.com.",
+      "version": "0.3.2",
       "source": "./copilot-main"
     }
   ]

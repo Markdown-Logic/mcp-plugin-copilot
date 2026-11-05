@@ -1,11 +1,11 @@
 # Markdown Logic plugins for GitHub Copilot
 
-GitHub Copilot plugin packages for [Markdown Logic](https://markdownlogic.com/), version 0.3.1.
+GitHub Copilot plugin packages for [Markdown Logic](https://markdownlogic.com/), version 0.3.2.
 
 | Plugin | Source | Package ZIP |
 | --- | --- | --- |
-| Markdown Logic Public | [copilot-public](copilot-public/) | [copilot-public-0.3.1.zip](dist/copilot-public-0.3.1.zip) |
-| Markdown Logic | [copilot-main](copilot-main/) | [copilot-main-0.3.1.zip](dist/copilot-main-0.3.1.zip) |
+| Markdown Logic Public | [copilot-public](copilot-public/) | [copilot-public-0.3.2.zip](dist/copilot-public-0.3.2.zip) |
+| Markdown Logic | [copilot-main](copilot-main/) | [copilot-main-0.3.2.zip](dist/copilot-main-0.3.2.zip) |
 
 The public plugin converts complete supplied Markdown to PDF, DOCX, HTML or EPUB without an account. The authenticated plugin supports team document workflows through browser OAuth. Each source folder includes its own manifest, remote MCP configuration, Skills, setup documentation, and license notices.
 
@@ -60,4 +60,4 @@ The integration files in this repository are licensed under the [MIT License](LI
 
 Support: support@markdownlogic.com · [Privacy](https://markdownlogic.com/privacy) · [Documentation](https://markdownlogic.com/help/en/connect-an-ai-assistant.html)
 
-This 0.3.1 tree is prepared and unpublished. See [current qualification](RELEASE-0.3.1.md); historical host acceptance does not qualify this artifact.
+This 0.3.2 tree is prepared and unpublished. See [current qualification](RELEASE-0.3.2.md); historical host acceptance does not qualify this artifact.
