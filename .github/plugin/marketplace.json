@@ -6,19 +6,19 @@
   },
   "metadata": {
     "description": "Markdown Logic MCP connections and workflow Skills for GitHub Copilot",
-    "version": "0.2.0"
+    "version": "0.3.1"
   },
   "plugins": [
     {
       "name": "markdown-logic-public",
       "description": "Convert complete Markdown you supply to PDF, DOCX, HTML or EPUB without an account. The anonymous MCP service cannot read private projects or fetch remote URLs. It returns embedded file bytes; saving or attaching them depends on your client. Size and capacity limits apply. It does not create a permanent download link.",
-      "version": "0.2.0",
+      "version": "0.3.1",
       "source": "./copilot-public"
     },
     {
       "name": "markdown-logic",
       "description": "Find, read, create, revise and render team documents through authorized Markdown Logic MCP tools. Browser OAuth, account permissions, scopes and plan limits apply. Skills provide guidance and add no permissions. Confirm the intended project and audience before writes or sharing. File saving and interactive UI depend on your client.",
-      "version": "0.2.0",
+      "version": "0.3.1",
       "source": "./copilot-main"
     }
   ]

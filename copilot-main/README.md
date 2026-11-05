@@ -2,14 +2,6 @@
 
 Find, read, create, revise and render team documents through authorized Markdown Logic MCP tools. Browser OAuth, account permissions, scopes and plan limits apply. Skills provide guidance and add no permissions. Confirm the intended project and audience before writes or sharing. File saving and interactive UI depend on your client.
 
-## Install in GitHub Copilot CLI
-
-```sh
-copilot plugin install Markdown-Logic/mcp-plugin-copilot:copilot-main
-```
-
-This package uses Agent Plugins 1.0: `plugin.json` and `mcp.json` are at the plugin root, and workflow Skills are in `skills/`. Use a Copilot CLI release that supports this format. For authenticated access, complete Copilot's browser OAuth flow when prompted. Installation alone does not verify access to the hosted service.
-
 ## Connection
 
 Endpoint: `https://mcp.markdownlogic.com`
@@ -32,7 +24,7 @@ The authenticated profile can use private document properties when the service r
 
 For an explicitly requested document share, confirm the audience and expiry. `create_share` accepts `expiresInDays` of 30, 60, 90 or 365; omitting it selects 30 days and null selects Never. Never links can still be revoked and remain subject to document and team policy. These private tools are unavailable through the anonymous profile.
 
-The anonymous service has no interactive MCP App. The authenticated service advertises Render Studio for `render_document` through an MCP App resource; whether it loads and can save files depends on the client. The website's UI is a separate surface. Package validation does not establish that the MCP App works in ChatGPT or Claude.
+The anonymous service has no interactive MCP App. The authenticated service advertises Render Studio for `preview_document` and `render_document` through an MCP App resource; whether it loads and can save files depends on the client. The website's UI is a separate surface. Package validation does not establish that the MCP App works in ChatGPT or Claude.
 
 Read [setup instructions and limits](help/en.md), browse [localized help](help/), and see the [localized descriptions](listing-translations.json) and [example test scenarios](review-cases.json).
 
