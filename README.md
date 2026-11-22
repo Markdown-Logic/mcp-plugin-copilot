@@ -1,11 +1,11 @@
 # Markdown Logic plugins for GitHub Copilot
 
-GitHub Copilot plugin packages for [Markdown Logic](https://markdownlogic.com/), version 0.3.4.
+GitHub Copilot plugin packages for [Markdown Logic](https://markdownlogic.com/), version 0.3.5.
 
 | Plugin | Source | Package ZIP |
 | --- | --- | --- |
-| Markdown Logic Public | [copilot-public](copilot-public/) | [copilot-public-0.3.4.zip](dist/copilot-public-0.3.4.zip) |
-| Markdown Logic | [copilot-main](copilot-main/) | [copilot-main-0.3.4.zip](dist/copilot-main-0.3.4.zip) |
+| Markdown Logic Public | [copilot-public](copilot-public/) | [copilot-public-0.3.5.zip](dist/copilot-public-0.3.5.zip) |
+| Markdown Logic | [copilot-main](copilot-main/) | [copilot-main-0.3.5.zip](dist/copilot-main-0.3.5.zip) |
 
 The public plugin converts complete supplied Markdown to PDF, DOCX, HTML or EPUB without an account. The authenticated plugin supports team document workflows through browser OAuth. Each source folder includes its own manifest, remote MCP configuration, Skills, setup documentation, and license notices.
 
@@ -50,7 +50,7 @@ See each source folder's README for setup, capabilities, and limits. Skills prov
 
 The repository includes a [marketplace catalog](.github/plugin/marketplace.json) for direct discovery and installation after users add this marketplace. See GitHub's [plugin authoring instructions](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/plugins-creating) and [marketplace instructions](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/plugins-marketplace).
 
-Historical validation with Copilot CLI 1.0.103 covered the earlier seven-skill artifact. This prepared 0.3.4 candidate contains six authenticated skills and two public skills; it has not been installed or requalified in that host.
+Historical validation with Copilot CLI 1.0.103 covered the earlier seven-skill artifact. This prepared 0.3.5 candidate contains six authenticated skills and two public skills; it has not been installed or requalified in that host.
 
 This repository provides community distribution. Publication here does not imply inclusion in a GitHub-curated catalog, provider endorsement, or completed live-client qualification. Live OAuth, tool execution, generated-file saving, and interactive rendering require separate end-to-end checks.
 
@@ -60,4 +60,4 @@ The integration files in this repository are licensed under the [MIT License](LI
 
 Support: support@markdownlogic.com · [Privacy](https://markdownlogic.com/privacy) · [Documentation](https://markdownlogic.com/help/en/connect-an-ai-assistant.html)
 
-This 0.3.4 tree is prepared and unpublished. See [current qualification](RELEASE-0.3.4.md); historical host acceptance does not qualify this artifact.
+This 0.3.5 GitHub package is separate from any directory approval. See [current qualification](RELEASE-0.3.5.md); historical host acceptance does not qualify this artifact.
