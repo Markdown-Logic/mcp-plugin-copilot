@@ -4,8 +4,8 @@ GitHub Copilot plugin packages for [Markdown Logic](https://markdownlogic.com/),
 
 | Plugin | Source | Package ZIP |
 | --- | --- | --- |
-| Markdown Logic Public | [copilot-public](copilot-public/) | [copilot-public-0.3.5.zip](dist/copilot-public-0.3.5.zip) |
-| Markdown Logic | [copilot-main](copilot-main/) | [copilot-main-0.3.5.zip](dist/copilot-main-0.3.5.zip) |
+| Markdown Logic Public | [copilot-public](copilot-public/) | [copilot-public-0.3.7.zip](dist/copilot-public-0.3.7.zip) |
+| Markdown Logic | [copilot-main](copilot-main/) | [copilot-main-0.3.7.zip](dist/copilot-main-0.3.7.zip) |
 
 The public plugin converts complete supplied Markdown to PDF, DOCX, HTML or EPUB without an account. The authenticated plugin supports team document workflows through browser OAuth. Each source folder includes its own manifest, remote MCP configuration, Skills, setup documentation, and license notices.
 

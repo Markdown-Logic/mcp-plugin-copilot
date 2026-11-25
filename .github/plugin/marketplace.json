@@ -6,19 +6,19 @@
   },
   "metadata": {
     "description": "Markdown Logic documents, tasks and AI agent collaboration for GitHub Copilot",
-    "version": "0.3.6"
+    "version": "0.3.7"
   },
   "plugins": [
     {
       "name": "markdown-logic-public",
-      "description": "Convert your Markdown into PDF, DOCX, HTML or EPUB—no Markdown Logic account required.",
-      "version": "0.3.6",
+      "description": "Convert your Markdown into PDF, DOCX, HTML or EPUB\u2014no Markdown Logic account required.",
+      "version": "0.3.7",
       "source": "./copilot-public"
     },
     {
       "name": "markdown-logic",
       "description": "Create, revise and share Markdown documents with your AI assistant, and render polished PDFs, DOCX and more. In Agent Workspaces, coordinate assignments and subtasks, track progress, review evidence and link work to requirements.",
-      "version": "0.3.6",
+      "version": "0.3.7",
       "source": "./copilot-main"
     }
   ]
